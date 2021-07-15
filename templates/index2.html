@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+    body {
+    background-image: url(https://i.pinimg.com/originals/b9/5c/c2/b95cc2ea8a385ae4b1031bfbb0868b27.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Doggoapp</title>
+</head>
+<body bgcolor="lightgrey" style="margin-left:3%; margin-right:3%; margin-top:2%;">
+
+<h1>Nowa rasa</h1>
+
+<a href="add_new_breed">Wróć do formularza</a>
+
+<h1 style="text-align:center;">{{ name }}</h1>
+<p style="text-align:justify;"> {{ description }}
+
+
+<h2>Charakter</h2>
+<p style="text-align:justify;"> {{ character }}
+</p>
+
+<h2>Umaszczenie</h2>
+{{ color }}<br>
+
+<h2>Waga:</h2>
+{{ male_weight }} <br>
+{{ female_weight }}
+
+<h2>Wzrost</h2>
+{{ male_height }}<br>
+{{ female_height }}
+
+<h2>Zdrowie</h2>
+<p style="text-align:justify;">
+    {{ health }}
+</p>
+
+
+Chcesz się dowiedzieć czegoś więcej o innej rasie? Wróć do strony głównej:</p>
+<a href="/page_start">Powrót do strony głównej</a>
+
+
+</body>
+</html>

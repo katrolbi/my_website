@@ -1,0 +1,3 @@
+INSERT INTO "dogs"
+VALUES
+(NULL, ?, ?, ?, ?, ?, ?, ?);
