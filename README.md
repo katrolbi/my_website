@@ -1,18 +1,17 @@
 # my_website
 
-<b>Opis</b>
+<b>Description</b>
 <br>
-Aplikacja przechowuje informacje o rasach psów. Również przyjmuje dane od użytkownika i zapisuje je do bazy. Wszystkie dane przechowywane w bazie prezentuje.
-Aby rozpocząć korzystanie ze strony należy stworzyć baze danych uruchamiając plik webapp_db_init.py.<br>
-Aby uruchomić stronę należy uruchomić aplikację webapp.py
+<text-align:justify>The application stores information about dog breeds. It also takes data from the user and saves them to the database. All data stored in the database is presented. To start using the website, create a database by running the webapp_db_init.py file.<br>
+To run the website, run the webapp.py application.
 <br><br>
-<b>Minimalna wersja Pythona</b>
+<b>Minimal Python version</b>
 <br>
 Python 3.9
 <br>
 <br>
-<b>Informacja o autorze</b>
+<b>Information about the author</b>
 <br>
-Imię i nazwisko: Katarzyna Rolbiecka
+Name and surname: Katarzyna Rolbiecka
 <br>
-Kontakt: rolbiecka.k@gmail.com
+Contact: rolbiecka.k@gmail.com
